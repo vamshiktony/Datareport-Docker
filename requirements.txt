@@ -1,0 +1,10 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+psycopg2-binary
+asyncpg
+pandas
+sqlalchemy
+boto3
+pyyaml
+memory_profiler
+redis
+simplejson

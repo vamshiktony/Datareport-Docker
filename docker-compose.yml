@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  datadownloadreport:
+    image: datadownloadreport
+    build:
+      context: .
+      dockerfile: ./Dockerfile
